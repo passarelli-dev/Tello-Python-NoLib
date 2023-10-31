@@ -1,0 +1,11 @@
+PYTHON:
+
+dipedenze:
+pip install netifaces netaddr
+
+set drone in ap mode:
+python set-ap-mode.py -s wifi_name -p wifiPassword
+
+
+start swarm:
+python swarm-start.py -f commands1.txt
